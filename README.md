@@ -4,7 +4,7 @@ A simple yet powerful IOS application that can visually recognizes waste types a
 **1. Why did we do this?**
 
 Waste collection and rubbish disposal play an extremely important role in the global cleanliness and sustainability drive, with people’s health and the conservation of resources being the responsibility of everyone. The application uses computer vision and machine learning technology to help people to classify wastes quickly and accurately. With this app, people can simply scan the waste to be disposed of, and follow the instruction provided by the app to correctly dispose of them. This is a handy application, especially for those who live in countries that have evolving yet strict waste classification policies to comply.
-![b7d41aa04e4da12ee42f355b9c8e1b10_XL](https://user-images.githubusercontent.com/60851886/95681222-4380f900-0ba4-11eb-91e9-f22d9cf02f5f.jpg)
+![GreenVisioniCON](https://cdn.discordapp.com/attachments/964943975247118417/965297389516779530/launchS.jpg)
 
 **2. Model Training**
 

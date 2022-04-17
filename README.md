@@ -63,7 +63,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
 
 3. One last thing is to set up the simulator so that while deploying to a real device, we can get the permission to use the camera. This can be done in the info.plist page.
 
-For model deployment, I followed the next few steps:
+For model deployment, we followed the next few steps:
 
 1. Import the Vision library and import the Core ML.
 ```
@@ -98,7 +98,7 @@ case plasticbottle = "PlassticBottle"
 }
 ```
 
-4. I then add a UILabel named “predictionLabel” and set a textbox in the bottom of the screen to show the prediction results.
+4. We then added a UILabel named “predictionLabel” and set textboxes in a new popup screen to show the prediction results and how to dispose of that type of waste.
 
 ```
 class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {

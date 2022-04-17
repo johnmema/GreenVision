@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "TGF_Terracycle_Logo_square_small_size_transperant_b1a6e2b1-7774-48db-9608-435fbe77f642_800x.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

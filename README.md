@@ -1,16 +1,16 @@
 # Waste Classification App Using CoreML
-A simple yet useful IOS application that can visually recognizes waste types and give instructions on garbage disposal. 
+A simple yet powerful IOS application that can visually recognizes waste types and give instructions on garbage disposal. 
 
-**1. Why I Do This?**
+**1. Why did we do this?**
 
 Waste collection and rubbish disposal play an extremely important role in the global cleanliness and sustainability drive, with people’s health and the conservation of resources being the responsibility of everyone. The application uses computer vision and machine learning technology to help people to classify wastes quickly and accurately. With this app, people can simply scan the waste to be disposed of, and follow the instruction provided by the app to correctly dispose of them. This is a handy application, especially for those who live in countries that have evolving yet strict waste classification policies to comply.
 ![b7d41aa04e4da12ee42f355b9c8e1b10_XL](https://user-images.githubusercontent.com/60851886/95681222-4380f900-0ba4-11eb-91e9-f22d9cf02f5f.jpg)
 
 **2. Model Training**
 
-Azure Custom Vision and Core ML were the two major tools I used to train and deploy the computer vision model in the application. In this app, I used Custom Vision to train a classification model and converted it into a Core ML model before the deployment in the following steps:
+Azure Custom Vision and Core ML were the two major tools we used to train and deploy the computer vision model in the application. In this app, we used Custom Vision to train a classification model and converted it into a Core ML model before the deployment in the following steps:
 
-  1. Collect images! I collected 100 images for each of 20 different wastes in various lightings, various positions on the phone screen, with different backgrounds. Here are the snapshots of the image collections! The training dataset can be found from here: https://www.kaggle.com/wangziang/waste-pictures
+  1. Collect images! We collected 100 images for each of 20 different wastes in various lightings, various positions on the phone screen, with different backgrounds. Here are the snapshots of the image collections! The training dataset can be found from here: https://www.kaggle.com/wangziang/waste-pictures
  ![Screen Shot 2020-10-11 at 10 02 17 AM](https://user-images.githubusercontent.com/60851886/95682090-0a975300-0ba9-11eb-8f53-3dcd1f36a842.png)
 
   2. Upload images and add tags. After image sets have been added and tagged, click the Train button at the top to let Custom Vision’s machine learning engine trains a model using the images being fed.
@@ -19,7 +19,7 @@ Azure Custom Vision and Core ML were the two major tools I used to train and dep
  
  **3. Model Deployment & Codes Implementation**
  
-The steps below show the steps I took to connect the camera:
+The steps below show the steps we took to connect the camera:
 
 1. To enable the computer to recognize the target, we need to keep the image updating. For this reason, the live images must be fed to the Core ML model for prediction.
 

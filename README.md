@@ -4,7 +4,7 @@ A simple yet powerful IOS application that can visually recognizes waste types a
 **1. Why did we do this?**
 
 Waste collection and rubbish disposal play an extremely important role in the global cleanliness and sustainability drive, with people’s health and the conservation of resources being the responsibility of everyone. The application uses computer vision and machine learning technology to help people to classify wastes quickly and accurately. With this app, people can simply scan the waste to be disposed of, and follow the instruction provided by the app to correctly dispose of them. This is a handy application, especially for those who live in countries that have evolving yet strict waste classification policies to comply.
-![GreenVisioniCON](https://cdn.discordapp.com/attachments/964943975247118417/965297389516779530/launchS.jpg)
+![GreenVisioniCON](https://cdn.discordapp.com/attachments/964943975247118417/965297389516779530/launchS.jpg | width=100)
 
 **2. Model Training**
 
@@ -192,9 +192,9 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
 **4. Test Results & Demonstration**
 
 Based on a wild range of item experiments, we conclude that the model predictions have a high accuracy on recognizing type of wastes that are included in the category. Particularly, it can accurately differentiate chopsticks from pens, even though they look similar in shape. However, it sometimes mistakes lamp with facial masks, which is likely due to the lack of diversity in training data. 
-![HomePage](https://cdn.discordapp.com/attachments/964943975247118417/965306056081309836/IMG_1948.PNG)
-![scanPage](https://cdn.discordapp.com/attachments/964943975247118417/965306802000519220/IMG_1949.PNG)
-![instructionPage](https://cdn.discordapp.com/attachments/964943975247118417/965306513612763216/IMG_1947.PNG)
+![HomePage](https://cdn.discordapp.com/attachments/964943975247118417/965306056081309836/IMG_1948.PNG | width=100)
+![scanPage](https://cdn.discordapp.com/attachments/964943975247118417/965306802000519220/IMG_1949.PNG | | width=100)
+![instructionPage](https://cdn.discordapp.com/attachments/964943975247118417/965306513612763216/IMG_1947.PNG | | width=100)
 
 ![giphy](https://user-images.githubusercontent.com/60851886/96681683-4cf52880-133d-11eb-903e-30e5c5d5efee.gif)
 

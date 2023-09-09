@@ -9,6 +9,7 @@ Waste collection and rubbish disposal play an extremely important role in the gl
 </p>
 
 **2. Model Training**
+
 Azure Custom Vision and Core ML were the two major tools we used to train and deploy the computer vision model in the application. In this app, we used Custom Vision to train a classification model and converted it into a Core ML model before the deployment in the following steps:
 
   1. Collect images! We collected 100 images for each of 20 different wastes in various lightings, various positions on the phone screen, with different backgrounds. Here are the snapshots of the image collections! The training dataset can be found from here: https://www.kaggle.com/wangziang/waste-pictures

@@ -195,11 +195,9 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
 
 Based on a wild range of item experiments, we conclude that the model predictions have a high accuracy on recognizing type of wastes that are included in the category. Particularly, it can accurately differentiate chopsticks from pens, even though they look similar in shape. However, it sometimes mistakes lamp with facial masks, which is likely due to the lack of diversity in training data. 
 
-<p float="left">
 <img src = "https://cdn.discordapp.com/attachments/964943975247118417/965306056081309836/IMG_1948.PNG" width="25%" height="25%">
 <img src = "https://cdn.discordapp.com/attachments/964943975247118417/965306513612763216/IMG_1947.PNG" width="25%" height="25%">
 ![giphy](https://user-images.githubusercontent.com/60851886/96681683-4cf52880-133d-11eb-903e-30e5c5d5efee.gif)
-<p>
 
 
 **5. Further Improvement**
